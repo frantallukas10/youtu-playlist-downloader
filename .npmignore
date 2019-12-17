@@ -1,0 +1,9 @@
+.vscode
+coverage
+demo
+images
+node_modules
+tests
+.gitignore
+jest.config.js
+downloads

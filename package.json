@@ -1,0 +1,40 @@
+{
+  "name": "youtu-playlist-downloader",
+  "version": "0.0.3",
+  "description": "Easily download youtube playlist song or one youtube song in mp4",
+  "main": "./src/main.js",
+  "scripts": {
+    "ytdownload": "node ./cli.js",
+    "test": "jest --coverage --silent",
+    "test:watch": "jest --watch --silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frantallukas10/youtu-playlist-downloader.git"
+  },
+  "keywords": [
+    "youtube",
+    "youtube playlist",
+    "youtube song",
+    "url",
+    "playlist",
+    "music"
+  ],
+  "author": "Ing. Lukáš Frantál <frantal.lukas10@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frantallukas10/youtu-playlist-downloader/issues"
+  },
+  "homepage": "https://frantallukas10.github.io/youtu-playlist-downloader",
+  "bin": {
+    "ytdownload": "./cli.js"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "queue": "^6.0.1",
+    "youtu-get": "^1.1.0",
+    "ytdl-core": "^1.0.3"
+  }
+}
